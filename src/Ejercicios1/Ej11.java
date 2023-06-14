@@ -12,8 +12,8 @@ public class Ej11 {
 		if (num>=100 && num<=999) {
 			
 			int num1=num/100;
-			int num2=(num/10)%10;
-			int num3=num%10;
+			int num2=num%100/10;
+			int num3=num%100%10;
 			
 			System.out.printf("Has introducido las cifras %d, %d y %d",num1,num2,num3);
 		} else {

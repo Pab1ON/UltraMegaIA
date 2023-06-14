@@ -6,7 +6,7 @@ public class Ej12 {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 
-		System.out.println("Introduce un número de 5 cifras");
+		System.out.println("Introduce un nÃºmero de 5 cifras");
 		int num=teclado.nextInt();
 		
 		if (num>=10000 && num<=99999) {
@@ -23,7 +23,7 @@ public class Ej12 {
 			System.out.println(num);
 			
 		} else {
-			System.out.println("El número debe de tener 5 cifras");
+			System.out.println("El nÃºmero debe de tener 5 cifras");
 		};	
 		
 		teclado.close();
