@@ -12,7 +12,7 @@ public class Ej5 {
 		double longitud= 2*Math.PI*radio;
 		double area= Math.PI*Math.pow(radio,2);
 			
-		System.out.printf("La circunferencia con radio %.2f tiene una longitud de %.2f y un área de %.2f",radio,longitud,area);
+		System.out.printf("La circunferencia con radio %.2f tiene una longitud de %.2f y un Ã¡rea de %.2f",radio,longitud,area);
 		
 		teclado.close();
 	}

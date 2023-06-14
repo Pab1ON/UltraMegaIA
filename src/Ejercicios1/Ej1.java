@@ -6,7 +6,7 @@ public class Ej1 {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 
-		System.out.println("Introduce un número:");
+		System.out.println("Introduce un nÃºmero:");
 		float num1=teclado.nextFloat();
 		
 		System.out.println("Introduce otro:");

@@ -14,7 +14,7 @@ public class Ej7 {
 		
 		double hip=Math.sqrt(Math.pow(cat1,2)+Math.pow(cat2,2));
 			
-		System.out.printf("El tri·ngulo con catetos %.0f y %.0f tiene una hipotenusa de %.2f ",cat1,cat2,hip);
+		System.out.printf("El tri√°ngulo con catetos %.0f y %.0f tiene una hipotenusa de %.2f ",cat1,cat2,hip);
 		
 		teclado.close();
 	}

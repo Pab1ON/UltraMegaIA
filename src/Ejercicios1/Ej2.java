@@ -9,7 +9,7 @@ public class Ej2 {
 		System.out.println("Introduce tu nombre:");
 		String nombre=teclado.nextLine();
 			
-		System.out.printf("Buenos días %s",nombre);
+		System.out.printf("Buenos dÃ­as %s",nombre);
 		
 		teclado.close();
 	}

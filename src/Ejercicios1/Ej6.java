@@ -9,7 +9,7 @@ public class Ej6 {
 		System.out.println("Introduce los Km/h");
 		double kmh=teclado.nextFloat();
 		
-		double ms=kmh*0.2778;
+		double ms=kmh*1000/3600;
 			
 		System.out.printf("%.2fKm/h son %.2fm/s",kmh,ms);
 		
